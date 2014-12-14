@@ -151,6 +151,8 @@ when "week"
   time = convertDate(Time.now)
 when "help"
   puts "Possible arguements: today, tomorrow, yesterday, week, date (format: yymmdd)"
+when nil
+  time = convertDate(Time.now)
 else
   if command.is_i?
     time = convertDate(Time.new(2000+(command.to_i/10000).floor, (command.to_i/100).floor.modulo(100),command.to_i.modulo(100)))
