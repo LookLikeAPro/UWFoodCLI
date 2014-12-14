@@ -2,6 +2,7 @@ UWFoodCLI
 =========
 
 A script to quickly look up what food is being served in University of Waterloo, any day and any time.
+<<<<<<< HEAD
 
 Install
 =========
@@ -16,3 +17,5 @@ Examples:
   Look up food on December 6, 2014
     ruby desktop/food/food.rb 141206
 This script can also be included in bash to work as a command.
+=======
+>>>>>>> origin/master
