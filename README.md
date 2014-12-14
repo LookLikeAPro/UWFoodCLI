@@ -3,6 +3,10 @@ UWFoodCLI
 
 A script to quickly look up what food is being served in University of Waterloo, any day and any time.
 
+Screenshot
+---------
+[image]: https://github.com/LookLikeAPro/UWFoodCLI/blob/master/screenshot.png"
+
 Install
 ---------
 1. Make sure Ruby is installed by typing ruby in terminal.
